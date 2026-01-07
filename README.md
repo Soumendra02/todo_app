@@ -41,25 +41,6 @@ This project is designed as a **basic yet professional frontend project**, showc
 
 ---
 
-## 📂 Project Structure
-
-```text
-src/
-├── components/
-│   ├── TodoApp.jsx
-│   └── reducer.js
-├── App.jsx
-├── main.jsx
-├── index.css
-public/
-├── index.html
-package.json
-vite.config.js
-tailwind.config.js
-postcss.config.js
-
-
-
 ## ⚙️ Installation & Setup
 Follow these steps to run the project locally:
 
@@ -77,5 +58,22 @@ Follow these steps to run the project locally:
 
 ---
 
-## The app will run at:
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── TodoApp.jsx
+│   └── reducer.js
+├── App.jsx
+├── main.jsx
+├── index.css
+public/
+├── index.html
+package.json
+vite.config.js
+tailwind.config.js
+postcss.config.js
+
+
+The app will run at:
 http://localhost:5173
