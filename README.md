@@ -43,6 +43,7 @@ This project is designed as a **basic yet professional frontend project**, showc
 
 ## 📂 Project Structure
 
+```text
 src/
 ├── components/
 │   ├── TodoApp.jsx
@@ -56,6 +57,7 @@ package.json
 vite.config.js
 tailwind.config.js
 postcss.config.js
+
 
 
 ## ⚙️ Installation & Setup
