@@ -1,16 +1,75 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern Todo application built using **React** and **useReducer**, featuring task management, filters, dark/light mode, and persistent storage using `localStorage`.
 
-Currently, two official plugins are available:
+This project is designed as a **basic yet professional frontend project**, showcasing core React concepts and clean UI practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://soumendra-todo-app.netlify.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- ❌ Delete tasks with **Undo** option
+- ✅ Mark tasks as completed / pending
+- 🔍 Filter tasks:
+  - All
+  - Completed
+  - Pending
+- 🌙 Dark / ☀️ Light theme toggle
+- 💾 Persistent data using **localStorage**
+- 🎨 Modern UI with Tailwind CSS
+- 🔔 Toast notifications for user actions
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components)
+- **useReducer** (State management)
+- **Tailwind CSS** (Styling)
+- **React Icons**
+- **React Toastify**
+- **Vite** (Build tool)
+- **Netlify** (Deployment)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── TodoApp.jsx
+│   └── reducer.js
+├── App.jsx
+├── main.jsx
+├── index.css
+public/
+package.json
+vite.config.js
+
+## ⚙️ Installation & Setup
+Follow these steps to run the project locally:
+
+# 1️⃣ Clone the repository
+- git clone https://github.com/Soumendra02/todo_app.git
+
+# 2️⃣ Navigate to the project folder
+- cd react-todo-app
+
+# 3️⃣ Install dependencies
+- npm install
+
+# 4️⃣ Start development server
+- npm run dev
+
+---
+
+## The app will run at:
+http://localhost:5173
