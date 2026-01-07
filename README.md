@@ -60,6 +60,7 @@ Follow these steps to run the project locally:
 
 ## 📂 Project Structure
 
+```text
 src/
 ├── components/
 │   ├── TodoApp.jsx
@@ -73,6 +74,7 @@ package.json
 vite.config.js
 tailwind.config.js
 postcss.config.js
+
 
 
 The app will run at:
